@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>Biodata</title>
+</head>
+<style>
+h1{
+color:red;
+text-align:center;
+}
+h2{
+color:white; padding:10px;
+background-color:blue;
+}
+body{
+background-color:yellow;
+}
+p{
+border:2px solid black;
+padding:3px;
+}
+</style>
+<body>
+<b><center>Biodata</center></b>
+<h1>Alpha</h1>
+<h2>Personal Detail</h2>
+<li>Full Name :Alpha Eapen Mammen</li>
+<li>DOB :26/12/2004</li>
+<li>Blood Grp :O+ve</li>
+<li>Gender :Male</li>
+<li>Address :Moothedathu puthen purackal(H) Kallooppara PO</li>
+
+<h2>Educational Details</h2>
+<li>High School :St. Johns HSS</li>
+<li>Higher Secondary :THSS Mallappally</li>
+<li>Degree :CAS MLPY</li>
+<li>MCA :CEC</li>
+
+<h2>Hobbies</h2>
+<li>Reading</li>
+<li>Sports</li>
+<li>Movies</li>
+<li>Traveling</li>
+
+<h2>Contact Details</h2>
+<ul>
+<p>Mob:56578798
+<br>Email:chn05mca@gmail.com</p>
+</body>
+</html>

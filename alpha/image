@@ -1,0 +1,14 @@
+<html>
+<head>
+<style>
+img{
+display:block;
+margin-left:auto;
+margin-right:auto;
+}
+</style>
+</head>
+<body>
+<img src="onam.jpeg" alt"centered image" heaight="300" width="300">
+</body>
+</html>

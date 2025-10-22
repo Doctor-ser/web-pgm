@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Table</title>
+    <style>
+        #mytable {
+            width: 100%;
+            font-family: sans-serif;
+            border-collapse: collapse;
+        }
+
+        #mytable th {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            text-align: left;
+            color: #ffffff;
+            background-color: #b22222;
+            border: 1px solid grey;
+        }
+
+        #mytable td {
+            padding: 8px;
+        }
+
+        #mytable tr {
+            border: 1px solid grey;
+        }
+
+        #mytable tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #mytable tr:hover {
+            background-color: burlywood;
+        }
+    </style>
+</head>
+<body>
+    <table id="mytable">
+        <tr>
+            <th>Courses</th>
+            <th>Seats</th>
+        </tr>
+        <tr>
+            <td>BCA</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>MCA</td>
+            <td>60</td>
+        </tr>
+        <tr>
+            <td>Btech</td>
+            <td>60</td>
+        </tr>
+        <tr>
+            <td>Mtech</td>
+            <td>60</td>
+        </tr>
+        <tr>
+            <td>MSc</td>
+            <td>30</td>
+        </tr>
+    </table>
+</body>
+</html>
+

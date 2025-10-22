@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CEC</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: darkblue; 
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    nav {
+      background: #333;
+      padding: 10px;
+      text-align: center;
+    }
+    #bg {
+      position: relative;
+      width: 100%;
+      min-height: 100vh; /* lowercase, CSS is case-sensitive */
+      overflow: hidden;
+      color: black; /* text on background */
+      padding-top: 20px;
+      box-sizing: border-box;
+    }
+    #bg img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+      opacity: 0.4;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {  /* fixed syntax for hover */
+      color: yellow;
+    }
+    section {
+      padding: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+      text-align: left;
+    }
+    .courses {
+      background: #f0f0f0;
+      padding: 20px;
+      margin-top: 20px;
+      border-radius: 8px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 12px;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+    footer {
+      background: black;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>College of Engineering, Chengannur</h1>
+    <p>Undertaking by IHRD</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#courses">Courses</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div id="bg">
+    <img src="/home/mcas1/Downloads/img.jpeg" alt="College Background Image">
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Undertaking by IHRD. Highly qualified mentors.</p>
+    </section>
+
+    <section id="courses" class="courses">
+      <h2>Our Courses</h2>
+      <table>
+        <tr>
+          <th>Course</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td>MCA</td>
+          <td>Master of Computer Applications</td>
+        </tr>
+        <!-- Add more courses here if needed -->
+      </table>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2> <!-- fixed unclosed h2 tag -->
+      <p>Email: cec@college.com</p>
+      <p>Phone: 4645787</p>
+      <p>Address: Chengannur</p>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>CEC &copy; 2025</p>
+  </footer>
+
+</body>
+</html>
+
